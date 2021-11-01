@@ -1,17 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: "My Super Cool Blog",
+    title: "TinySteps",
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "G-HMV4TCS50G",
-        head: true,
-        anonymize: true,
-        enableWebVitalsTracking: true,
+        trackingIds: [
+          "G-BGJXK62Q6W",
+        ],
+        pluginConfig: {
+          head: true,
+        },
       },
-    },
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     {
