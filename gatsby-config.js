@@ -13,6 +13,7 @@ module.exports = {
           head: true,
         },
       },
+    },
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     {
